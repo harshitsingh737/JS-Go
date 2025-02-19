@@ -39,5 +39,20 @@ let stringToNum=String(stringNumber)
 console.log(stringToNum);
 console.log(typeof stringToNum);
 
+// *******************************operation***********************************
+
+let value =3
+let negVal=-value
+console.log(negVal)
+
+let str1="hello"
+let str2=" harshit"
+let str3 = str1+str2
+console.log(str3)
+
+console.log("1"+2);
+console.log(1+"2");
+console.log(1+3+"2");
+console.log("1"+1+2);
 
 
