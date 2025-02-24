@@ -33,3 +33,26 @@ const myFunction = function(){
     console.log("Hello World");
     
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// their are two types of memory space
+// 1. Stack (primitive)
+let myYoutubename="hiteshchoudharydotcom"
+let anothername=myYoutubename
+
+anothername="chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1={
+    email:"user@google.com",
+    upi:"user@byl"
+}
+
+let userTwo=user1; 
+
+userTwo.email="hitesh@google.com"
+
+console.log(user1.email);
+console.log(userTwo.email);
