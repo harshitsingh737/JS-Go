@@ -37,4 +37,34 @@ const obj3={5:"a",6:"b"}
 const obj4 ={...obj1,...obj2,...obj3}  //most of the time this is used 
 console.log(obj4);
 
+const users=[
+    {
+        id:1,
+        email:"harshit@google.com"
+    },
+    {
+        id:1,
+        email:"harshit@google.com"
+    },
+    {
+        id:1,
+        email:"harshit@google.com"
+    }
+]
+
+console.log(users[1].email);
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));  // it will return the values of object as string of array
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(tinderUser.hasOwnProperty('name'));
+console.log(tinderUser.hasOwnProperty('roll_no'));
+
+
+
+
+
 
