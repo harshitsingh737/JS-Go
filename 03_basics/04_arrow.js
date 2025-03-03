@@ -22,7 +22,7 @@ const user ={
 // function chai()
 // {
 //     // let username="harshit"
-//     // console.log(this.username); // gives you undefine because we are in function and in object
+//     // console.log(this.username); // gives you undefine because we are in function and not in object
 //     console.log(this);
     
 // }
@@ -36,5 +36,21 @@ const chai = () => {
     console.log(this);
 }
 
-chai()
+// Read the difference between normal function and arrow function
+
+// chai()
+
+// const addTwo = (num1,num2) =>{
+//     return num1+num2
+
+// }
+
+// to make this function implicit we can remove the curly bracket and remove the return statement
+// curly braces me wrap kara to return likhna padega warna nhi likhna padega
+const addTwo = (num1,num2) => (num1+num2)
+
+
+console.log(addTwo(3,4));
+
+
     
