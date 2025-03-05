@@ -35,3 +35,22 @@ if(Object.keys(emptyObj).length ===0)
     console.log("object is empty");
 }
     
+// Nullish coalescing operator(??) : null undefined
+let val1;
+val1 = 5 ?? 10
+let val2 = null ?? 10
+let val3 =undefined ?? 15
+let val4 = null ?? 20 ?? 15
+
+console.log(val1);
+console.log(val2);
+console.log(val3);
+console.log(val4);
+
+// Terniary Operator
+
+// condition ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice >= 80 ? console.log("more than 80") : console.log("less than 80");
+;
