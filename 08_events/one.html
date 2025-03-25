@@ -37,12 +37,21 @@
     // clientX , clientY, screenX ,screenY
     // altkey ,ctrlkey,shiftkey ,keyCode
 
-    document.getElementById('owl').addEventListener('click',function(e){
-        console.log(e);
+   document.getElementById("images").addEventListener('click',function(e){
+        console.log("clicked inside the ul");
     },false)
+
+    document.getElementById("owl").addEventListener('click',function(e){
+        console.log("you clicked the owl");
+    },false)
+
+    // false and true are basically about the approach of the user where user want bubbling(bottom to top)then use false and on the otherhand if user want capturing(top to bottom)then use true
+</script>
+        
+        
+        
 
     
 
-</script>
     
 </html>
