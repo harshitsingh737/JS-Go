@@ -6,34 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Chai aur code</h1>
-    <button id="stop">Stop</button>
+    <h1>Chai aur Code</h1>
+    <button id="stop">STOP</button>
 </body>
 
 <script>
-    // setTimeout(function(){
-    //     console.log("hitesh");
-    // } , 2000)
 
     const sayHitesh = function(){
-        console.log("hitesh");
-    } 
-
-    const changText = function(){
-        document.querySelector("h1").innerHTML = "Best JS Series"
+        console.log("Hitesh");
     }
+        
+setTimeout(sayHitesh,2000)
 
-    // setInterval(sayHitesh,2000)
-    const changeMe = setTimeout(changText,2000)
-    // clearTimeout(changeMe)
-    document.querySelector("#stop").addEventListener('click',function(){
-        clearTimeout(changeMe)
-        console.log("STOP");
-        
-    })
-        
+const changeText = function(){
+    document.querySelector("h1").innerHTML = "BEST JS COURSE"
+}
+const changeMe = setTimeout(changeText,2000)
     
-        
-</script>
+// setInterval(function(){
+//     console.log("Hitesh");
+// },2000)
 
-</html> 
+document.querySelector("#stop").addEventListener("click",function(){
+    clearTimeout(changeMe);
+    console.log("stopped");
+    
+})
+    
+</script>
+</html>
